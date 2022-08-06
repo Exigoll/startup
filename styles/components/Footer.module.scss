@@ -1,3 +1,37 @@
 .footer {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  background-color: rgba(0,0,0,60%);
+  box-shadow: 0 -20px 20px 8px rgb(0 0 0 / 60%)
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+
+  &__list {
+    display: flex;
+
+    h3 {
+      padding-right: 30px;
+    }
+  }
+
+  svg {
+    width: 24px;
+    height: 24px;
+    transition: transform .3s ease-in;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+}
+
+.reserved {
+  font-size: 12px;
 }
