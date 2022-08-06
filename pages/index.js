@@ -16,11 +16,15 @@ const Home = () => {
 
       <main>
         <section className={styles.home}>
-          <button className={styles.btn}>
-            <Link href="/game">
-              <a>Играть</a>
-            </Link>
-          </button>
+          <div className={styles.home__container}>
+            <h2>Transcription</h2>
+            <div>Lorem100</div>
+            <button className={styles.btn}>
+              <Link href="/game">
+                <a>Играть</a>
+              </Link>
+            </button>
+          </div>
         </section>
       </main>
       <Footer />
