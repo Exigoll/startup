@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.scss";
+import styles from "../styles/pages/Home.module.scss";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Link from "next/link";
@@ -17,8 +17,6 @@ const Home = () => {
         <main>
           <section className={styles.home}>
             <div className={styles.home__container}>
-              <h2>Transcription</h2>
-              <div>Lorem100</div>
               <button className={styles.btn}>
                 <Link href="/game">
                   <a>Играть</a>

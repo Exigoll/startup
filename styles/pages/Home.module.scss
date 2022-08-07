@@ -2,21 +2,16 @@
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  background: url(".././public/img/home-bg.jpg") no-repeat center / cover;
+  background: url("../../public/img/home-bg.jpg") no-repeat center / cover;
 }
 
 .home {
   display: flex;
   align-items: center;
 
-
   &__container {
     width: 100%;
     max-width: 1024px;
-    padding: 100px 0;
-    margin: 0 auto;
-
-
   }
 }
 

@@ -12,6 +12,7 @@
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
     "next": "12.2.4",
+    "normalize.css": "^8.0.1",
     "prettier": "^2.7.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
